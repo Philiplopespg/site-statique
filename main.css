@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #4a4a4a;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+h2 {
+  color: #1a2142;
+  font-size: 1.8em;
+  margin-bottom: 80px;
+  border-bottom: solid 10px #ccc;
+}
+
+p {
+  text-align: justify;
+}
+
+main {
+  margin-top:30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 30px;
+}
+.main-header {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  background: url(/images/photo-1595074475129-432e3fd1bace.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header h1 {
+  margin-left: 40px;
+  padding-top: 140px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  line-height: 1.4;
+  
+}
+
+
+ul.menu {
+  display: flex;
+  
+  background-color: rgba(160, 160, 160, 0.7);
+}
+
+ul.menu li {
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #959595;
+  border-bottom: none;
+  display: block;
+  background-color: #333333b0;
+  color:#ddd;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  min-width: 70px;
+
+  padding: 0.5em 1em;
+}
+
+ul.menu li.is-active {
+  background-color: white;
+  font-weight: 700;
+  color:#4a4a4a;
+}
+
+.theme-dark {
+  background-color: #000;
+  color: #bbff00;
+}
+
+.logo {
+  width: 100px; /* 100 pour le fun  */
+  height: 100px;
+}
+
+/*body {
+    margin:0;
+}
+
+main {
+    margin: 15px;
+}
+.main-header {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+.main-header h1 {
+   margin-left:15px;
+   padding-top:15px;
+}
+
+h1 {
+    color:#1a2142;
+    font-family:monospace;
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+}
+
+ul.menu {
+    display:flex;
+    background-color: #ccc;
+   
+}
+
+ul.menu li {
+    list-style: none;
+    margin:0px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-bottom: none;
+    display: block;
+    background-color: #ccc;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+
+
+    display: flex;
+    justify-content: center;
+    min-width: 70px;
+
+    padding: .5em 1em;
+}
+
+ul.menu li.is-active {
+    background-color: white;
+    font-weight: 700;
+}
+
+.theme-dark {
+    background-color:#000;
+    color:#bbff00;
+}
+
+.first-letter {
+    font-weight: 700;
+    font-size:30px;
+    color:rgb(180, 69, 184);
+    
+}
+
+.exemple {
+    font-style: italic;
+    color:white;
+    background: url(https://source.unsplash.com/featured/?computers);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid yellow;
+}
+
+.logo {
+    width:100px;  
+    height:100px;
+}
+
+#main-price {
+    font-weight:700;
+    text-decoration: underline;
+}*/
